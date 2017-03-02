@@ -34,10 +34,22 @@
                 lng: 12.524965
             };
 
-            var etAndetSted = {
+            var hedeskov = {
                 lat: 56.369155,
                 lng: 10.439580
             };
+
+            var aarhus = {
+                lat: 56.153926,
+                lng: 10.199874
+            };
+
+            var halmtorvet = {
+                lat: 55.669461,
+                lng: 12.558611
+            };
+
+
 
 
 
@@ -47,16 +59,28 @@
                 center: myLatLng
             });
 
-            var marker = new google.maps.Marker({
+            var marker1 = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
                 title: 'Søndermarken er nice!'
             });
 
-            var marker = new google.maps.Marker({
-                position: etAndetSted,
+            var marker2 = new google.maps.Marker({
+                position: hedeskov,
                 map: map,
                 title: 'this is home!'
+            });
+
+            var marker3 = new google.maps.Marker({
+                position: aarhus,
+                map: map,
+                title: 'Aarhus!'
+            });
+
+            var marker4 = new google.maps.Marker({
+                position: halmtorvet,
+                map: map,
+                title: 'Halmtorvet!'
             });
         }
 
